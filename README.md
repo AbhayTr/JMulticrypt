@@ -95,7 +95,7 @@ Map keys = e2e.keys();
 
 Returns Private Key and Public Key in the form of Map of the format {"public": %YOUR_PUBLIC_KEY%, "private": %YOUR_PRIVATE_KEY%}.
 
-### encrypt()
+### encrypt(String message, String public_key)
 
 ```java
 String message = "Multicrypt algorithm is highly secure!";
@@ -111,7 +111,7 @@ Encrypts the message using MULTICRYPT algorithm.
 - **public_key (Required):** Public Key of the recipient of the message (for the asymmetric encryption part).
 
 
-### decrypt()
+### decrypt(String message, String private_key)
 
 ```java
 String private_key = keys.get("private");
