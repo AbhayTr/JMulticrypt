@@ -85,7 +85,7 @@ Optional Parameters that are available are listed below in Parameters section an
 - **key_path (Optional):** Specifies the path and name of the file where the keys have to be stored, if save = true (Default: root of your java projct)**(NOTE: Default value won't work in Android Project)**.
 - **new (Optional):** Should be true/false. Specifies whether it should ignore any existing key pairs and generate new key pair or not (Default: false).
 
-## Methods
+## Functions
 
 ### keys()
 
